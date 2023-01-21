@@ -13,7 +13,8 @@ AM_LDFLAGS = \
 data_DATA =
 
 bin_PROGRAMS = \
-	lsusb
+	lsusb \
+	usbreset
 
 sbin_SCRIPTS =
 
@@ -21,8 +22,7 @@ bin_SCRIPTS = \
 	usb-devices \
 	lsusb.py
 
-noinst_PROGRAMS = \
-	usbreset
+noinst_PROGRAMS = 
 
 lsusb_SOURCES = \
 	lsusb.c lsusb.h \
